@@ -1,0 +1,25 @@
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer h5 {
+  color: #daa300;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .container {
+  max-width: 960px;
+}
+
+.footer .row {
+  margin-bottom: 15px;
+}
+
+.footer .text-center {
+  margin-top: 20px;
+}

@@ -1,0 +1,76 @@
+* {
+  font-family: Arial, sans-serif;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+}
+#txt,
+.pname,
+#bdate,
+#tel,
+#sel,
+#numTickets {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+#sb[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#sb:hover {
+  background-color: #0056b3;
+}
+#pdetail,
+#pdetail2 {
+  flex: 1;
+}
+/*Reponsive for mobile and small-mobile*/
+@media (max-width: 479px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .detail {
+    flex-direction: column;
+  }
+  #sb[type="submit"] {
+    font-size: 16px;
+    padding: 12px;
+  }
+  #txt,
+  .pname,
+  #bdate,
+  #tel,
+  #sel,
+  #numTickets {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+@media (max-width: 374px) {
+  .container {
+    padding: 10px;
+  }
+  #txt,
+  .pname,
+  #bdate,
+  #tel,
+  #sel,
+  #numTickets {
+    font-size: 12px;
+    padding: 6px;
+  }
+  #sb[type="submit"] {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

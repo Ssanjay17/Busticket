@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#buspage {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#line {
+  width: 20px;
+  height: 0;
+  border: 1px solid black;
+}
